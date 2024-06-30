@@ -1,0 +1,35 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Positive Tests Suite">
+<test name="Positive Tests">
+    <groups>
+        <run>
+            <include name="positive"/>
+        </run>
+    </groups>
+    <classes>
+        <class name="Prozorro"/>
+    </classes>
+</test>
+</suite>
+
+<suite name="Negative Tests Suite">
+<test name="Negative Tests">
+    <groups>
+        <run>
+            <include name="negative"/>
+        </run>
+    </groups>
+    <classes>
+        <class name="Prozorro"/>
+    </classes>
+</test>
+</suite>
+
+<suite name="All Tests Suite">
+<test name="All Tests">
+    <classes>
+        <class name="Prozorro"/>
+    </classes>
+</test>
+</suite>
